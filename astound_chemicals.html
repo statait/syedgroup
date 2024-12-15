@@ -57,6 +57,74 @@ FACEBOOK: https://www.facebook.com/themefisher
     <link rel="stylesheet" href="plugins/colorbox/colorbox.css" />
     <!-- Template styles-->
     <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      .industrial-applications {
+        background-color: #f9f9f9;
+        padding: 50px 20px;
+        text-align: center;
+      }
+
+      .section-header h2 {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 30px;
+      }
+
+      .industries-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .industry-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 36px 36px 36px 36px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increased shadow effect */
+        max-width: 250px;
+        text-align: center;
+        padding: 15px;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+
+      .industry-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        background-image: linear-gradient(#2e987d, #0d8f43);
+      }
+
+      .industry-card img {
+        width: 100%;
+        border-radius: 6px;
+        margin-bottom: 15px;
+      }
+
+      .industry-card h4 {
+        font-size: 1.2rem;
+
+        margin: 10px 0;
+      }
+
+      .industry-card p {
+        font-size: 0.9rem;
+
+        line-height: 1.5;
+      }
+
+      @media (max-width: 768px) {
+        .industries-container {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .industry-card {
+          width: 100%;
+          max-width: 300px;
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="body-inner">
@@ -491,246 +559,125 @@ FACEBOOK: https://www.facebook.com/themefisher
       </section>
       <!-- Facts end -->
 
-      <section id="ts-team" class="ts-team">
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-lg-12">
-              <h2 class="section-title">Quality Service</h2>
-              <h3 class="section-sub-title">Professional Team</h3>
-            </div>
-          </div>
-          <!--/ Title row end -->
-
-          <div class="row">
-            <div class="col-lg-12">
-              <div id="team-slide" class="team-slide">
-                <div class="item">
-                  <div class="ts-team-wrapper">
-                    <div class="team-img-wrapper">
-                      <img
-                        loading="lazy"
-                        class="w-100"
-                        src="images/team/team1.jpg"
-                        alt="team-img"
-                      />
-                    </div>
-                    <div class="ts-team-content">
-                      <h3 class="ts-name">Nats Stenman</h3>
-                      <p class="ts-designation">Chief Operating Officer</p>
-                      <p class="ts-description">
-                        Nats Stenman began his career in construction with boots
-                        on the ground
-                      </p>
-                      <div class="team-social-icons">
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-google-plus"></i
-                        ></a>
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                      </div>
-                      <!--/ social-icons-->
-                    </div>
-                  </div>
-                  <!--/ Team wrapper end -->
-                </div>
-                <!-- Team 1 end -->
-
-                <div class="item">
-                  <div class="ts-team-wrapper">
-                    <div class="team-img-wrapper">
-                      <img
-                        loading="lazy"
-                        class="w-100"
-                        src="images/team/team2.jpg"
-                        alt="team-img"
-                      />
-                    </div>
-                    <div class="ts-team-content">
-                      <h3 class="ts-name">Angela Lyouer</h3>
-                      <p class="ts-designation">Innovation Officer</p>
-                      <p class="ts-description">
-                        Nats Stenman began his career in construction with boots
-                        on the ground
-                      </p>
-                      <div class="team-social-icons">
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                      </div>
-                      <!--/ social-icons-->
-                    </div>
-                  </div>
-                  <!--/ Team wrapper end -->
-                </div>
-                <!-- Team 2 end -->
-
-                <div class="item">
-                  <div class="ts-team-wrapper">
-                    <div class="team-img-wrapper">
-                      <img
-                        loading="lazy"
-                        class="w-100"
-                        src="images/team/team3.jpg"
-                        alt="team-img"
-                      />
-                    </div>
-                    <div class="ts-team-content">
-                      <h3 class="ts-name">Mark Conter</h3>
-                      <p class="ts-designation">Safety Officer</p>
-                      <p class="ts-description">
-                        Nats Stenman began his career in construction with boots
-                        on the ground
-                      </p>
-                      <div class="team-social-icons">
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-google-plus"></i
-                        ></a>
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                      </div>
-                      <!--/ social-icons-->
-                    </div>
-                  </div>
-                  <!--/ Team wrapper end -->
-                </div>
-                <!-- Team 3 end -->
-
-                <div class="item">
-                  <div class="ts-team-wrapper">
-                    <div class="team-img-wrapper">
-                      <img
-                        loading="lazy"
-                        class="w-100"
-                        src="images/team/team4.jpg"
-                        alt="team-img"
-                      />
-                    </div>
-                    <div class="ts-team-content">
-                      <h3 class="ts-name">Ayesha Stewart</h3>
-                      <p class="ts-designation">Finance Officer</p>
-                      <p class="ts-description">
-                        Nats Stenman began his career in construction with boots
-                        on the ground
-                      </p>
-                      <div class="team-social-icons">
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-google-plus"></i
-                        ></a>
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                      </div>
-                      <!--/ social-icons-->
-                    </div>
-                  </div>
-                  <!--/ Team wrapper end -->
-                </div>
-                <!-- Team 4 end -->
-
-                <div class="item">
-                  <div class="ts-team-wrapper">
-                    <div class="team-img-wrapper">
-                      <img
-                        loading="lazy"
-                        class="w-100"
-                        src="images/team/team5.jpg"
-                        alt="team-img"
-                      />
-                    </div>
-                    <div class="ts-team-content">
-                      <h3 class="ts-name">Dave Clarkte</h3>
-                      <p class="ts-designation">Civil Engineer</p>
-                      <p class="ts-description">
-                        Nats Stenman began his career in construction with boots
-                        on the ground
-                      </p>
-                      <div class="team-social-icons">
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-google-plus"></i
-                        ></a>
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                      </div>
-                      <!--/ social-icons-->
-                    </div>
-                  </div>
-                  <!--/ Team wrapper end -->
-                </div>
-                <!-- Team 5 end -->
-
-                <div class="item">
-                  <div class="ts-team-wrapper">
-                    <div class="team-img-wrapper">
-                      <img
-                        loading="lazy"
-                        class="w-100"
-                        src="images/team/team6.jpg"
-                        alt="team-img"
-                      />
-                    </div>
-                    <div class="ts-team-content">
-                      <h3 class="ts-name">Elton Joe</h3>
-                      <p class="ts-designation">Site Supervisor</p>
-                      <p class="ts-description">
-                        Nats Stenman began his career in construction with boots
-                        on the ground
-                      </p>
-                      <div class="team-social-icons">
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-google-plus"></i
-                        ></a>
-                        <a target="_blank" href="#"
-                          ><i class="fab fa-linkedin"></i
-                        ></a>
-                      </div>
-                      <!--/ social-icons-->
-                    </div>
-                  </div>
-                  <!--/ Team wrapper end -->
-                </div>
-                <!-- Team 6 end -->
-              </div>
-              <!-- Team slide end -->
-            </div>
-          </div>
-          <!--/ Content row end -->
+      <section class="industrial-applications">
+        <div class="section-header">
+          <h2>Industrial Applications</h2>
         </div>
-        <!--/ Container end -->
+        <div class="industries-container row mb-3">
+          <!-- Card 1 -->
+          <div class="industry-card col-12 col-md-2">
+            <img
+              src="https://supersilicabd.com/wp-content/uploads/2022/08/ceramic-ind.png"
+              alt="Ceramic Industry"
+            />
+            <h4>Ceramic Industry</h4>
+            <p>
+              Binder, Slip Casting, Slurry Thinner,<br />
+              Clay Refining, Acid Resistance Frits
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="industry-card col-12 col-md-2">
+            <img
+              src="https://supersilicabd.com/wp-content/uploads/2022/09/cleaning-industy.png"
+              alt="Cleaning Industry"
+            />
+            <h4>Cleaning Industry</h4>
+            <p>
+              Surfactants, Corrosion Inhibitor,<br />
+              Water Softener
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="industry-card col-12 col-md-2">
+            <img
+              src="https://supersilicabd.com/wp-content/uploads/2022/08/concrete-ind.png"
+              alt="Concrete Industry"
+            />
+            <h4>Concrete Industry</h4>
+            <p>Reduce Porosity, Quick Setting,<br />Increased Strength</p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="industry-card col-12 col-md-2">
+            <img
+              src="https://supersilicabd.com/wp-content/uploads/2022/08/packaging-industry.png"
+              alt="Packaging Industry"
+            />
+            <h4>Packaging Industry</h4>
+            <p>
+              High Strength, Moisture Resistance,<br />Heat Resistance &amp;
+              Fast Set – Adhesive
+            </p>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="industry-card col-12 col-md-2">
+            <img
+              src="https://supersilicabd.com/wp-content/uploads/2022/08/newspaper.png"
+              alt="Pulp &amp; Paper"
+            />
+            <h4>Pulp &amp; Paper</h4>
+            <p>Peroxide Bleaching, De-Inking,<br />High Strength</p>
+          </div>
+        </div>
+
+        <div class="industries-container row">
+          <!-- Card 6 -->
+          <div class="industry-card col-12 col-md-2">
+            <img
+              src="https://supersilicabd.com/wp-content/uploads/2022/08/paint-ind.png"
+              alt="Paint Industry"
+            />
+            <h4>Paint Industry</h4>
+            <p>Silica Based Paint</p>
+          </div>
+
+          <!-- Card 7 -->
+          <div class="industry-card col-12 col-md-2">
+            <img
+              src="https://supersilicabd.com/wp-content/uploads/2022/08/steel-ind.png"
+              alt=" Steel &amp; Re-Rolling"
+            />
+            <h4>Steel &amp; Re-Rolling</h4>
+            <p>Deoxidizer &amp; Anti Corrosion</p>
+          </div>
+
+          <!-- Card 8 -->
+          <div class="industry-card col-12 col-md-2">
+            <img
+              src="https://supersilicabd.com/wp-content/uploads/2022/08/textile-ind.png"
+              alt="Textile Factory"
+            />
+            <h4>Textile Factory</h4>
+            <p>Preoxide Bleaching, Pad-Batch Dyeing</p>
+          </div>
+
+          <!-- Card 9 -->
+          <div class="industry-card col-12 col-md-2">
+            <img
+              src="https://supersilicabd.com/wp-content/uploads/2022/11/oral-care.png"
+              alt="Toothpaste Industry"
+            />
+            <h4>Toothpaste Industry</h4>
+            <p>Oral Care</p>
+          </div>
+
+          <!-- Card 10 -->
+          <div class="industry-card col-12 col-md-2">
+            <img
+              src="https://supersilicabd.com/wp-content/uploads/2022/08/welding-ind.png"
+              alt="Welding Electrodes"
+            />
+            <h4>Welding Electrodes</h4>
+            <p>Binder, Fire Resistance,<br />Moisture Resistance</p>
+          </div>
+
+          <!-- Add more cards as needed -->
+        </div>
       </section>
-      <!--/ Team end -->
 
       <footer id="footer" class="footer bg-overlay">
         <div class="footer-main">
